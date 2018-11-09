@@ -1,6 +1,6 @@
 {
   "name": "@gfi-centre-ouest/docker-compose-spec-typescript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Docker Compose configuration file schemas as TypeScript interfaces.",
   "files": [
     "lib"
