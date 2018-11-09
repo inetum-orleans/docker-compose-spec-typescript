@@ -1,0 +1,41 @@
+{
+  "name": "@gfi-centre-ouest/docker-compose-spec-typescript",
+  "version": "0.0.1",
+  "description": "Docker Compose configuration file schemas as TypeScript interfaces.",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "ts-node build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfi-centre-ouest/docker-compose-spec-typescript.git"
+  },
+  "keywords": [
+    "docker",
+    "compose",
+    "spec",
+    "configuration",
+    "typescript"
+  ],
+  "author": "Rémi Alvergnat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfi-centre-ouest/docker-compose-spec-typescript/issues"
+  },
+  "homepage": "https://github.com/gfi-centre-ouest/docker-compose-spec-typescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.4",
+    "@types/rimraf": "^2.0.2",
+    "axios": "^0.18.0",
+    "json-schema-to-typescript": "^6.0.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
