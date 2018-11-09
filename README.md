@@ -1,7 +1,7 @@
 Docker Compose Spec TypeScript
 ===============================================
 
-![npm](https://img.shields.io/npm/v/@gfi-centre-ouest/docker-compose-spec-typescript.svg)
+[![npm](https://img.shields.io/npm/v/@gfi-centre-ouest/docker-compose-spec-typescript.svg)](https://www.npmjs.com/package/@gfi-centre-ouest/docker-compose-spec-typescript)
 
 Docker Compose configuration file schemas as TypeScript interfaces.
 
