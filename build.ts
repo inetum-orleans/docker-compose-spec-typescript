@@ -7,7 +7,7 @@ import * as fs from 'fs'
 
 const directory = 'lib'
 const schemaUrlPattern: string = 'https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v{version}.json'
-const schemaVersions: string[] = ['1', '2.0', '2.1', '2.2', '2.3', '2.4', '3.0', '3.1', '3.2', '3.3', '3.4', '3.5', '3.6', '3.7']
+const schemaVersions: string[] = ['1', '2.0', '2.1', '2.2', '2.3', '2.4', '3.0', '3.1', '3.2', '3.3', '3.4', '3.5', '3.6', '3.7', '3.8']
 
 rimraf.sync(directory)
 fs.mkdirSync(directory)
